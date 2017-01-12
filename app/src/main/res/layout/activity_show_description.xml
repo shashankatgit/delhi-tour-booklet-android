@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="right">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_weight="0.8">
+
+        <LinearLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="5sp"
+        tools:context="com.example.fragger.delhitourbooklet.ShowDescription">
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="35sp"
+            android:text="PlaceTitle"
+            android:textAlignment="center"
+            android:id="@+id/descriptionTitle"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="center"
+                android:layout_gravity="center"
+                android:id="@+id/descriptionImageView"
+                />
+
+            <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="nothing"
+            android:layout_marginBottom="10sp"
+            android:textSize="20sp"
+            android:id="@+id/descriptionText"
+            android:layout_gravity="right" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_marginBottom="10sp"
+            android:textSize="20sp"
+            android:text="Fees : "
+            android:id="@+id/descriptionFees" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_marginBottom="10sp"
+            android:textSize="20sp"
+            android:text="Opens : "
+            android:id="@+id/descriptionOpenTime" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_marginBottom="10sp"
+            android:textSize="20sp"
+            android:text="Closes : "
+            android:id="@+id/descriptionCloseTime" />
+
+    </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5sp"
+        android:layout_weight="0.25">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Previous"
+            android:id="@+id/prevButton"
+            android:layout_gravity="start"
+
+            />
+
+        <View
+            android:layout_width="0sp"
+            android:layout_height="0sp"
+            android:visibility="invisible"
+            android:layout_weight="1"
+            ></View>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Next"
+            android:id="@+id/nextButton"
+
+            />
+    </LinearLayout>
+
+</LinearLayout>

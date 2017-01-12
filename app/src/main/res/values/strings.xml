@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">DelhiTourBooklet</string>
+    <string name="app_title">Delhi Tour Booklet</string>
+    <string name="a">a</string>
+
+    <!-- Values for description screen-->
+
+    <string-array name="PlaceList">
+        <item>Red Fort </item>
+        <item>Raj Ghat </item>
+        <item>India Gate </item>
+        <item>Jama Masjid </item>
+        <item>Akshar Dham </item>
+        <item>Humayun\'s Tomb </item>
+        <item>Lodi Gardens </item>
+        <item>Qutab Minar</item>
+
+    </string-array>
+    <!-- Open Timings -->
+    <string-array name="OpenTime">
+
+        <item>9 a.m. </item>
+        <item>10 a.m. Tuesday to Sunday </item>
+        <item>Always open </item>
+        <item>8 a.m. </item>
+        <item>Tuesday to Sunday, 9.30 a.m </item>
+        <item>Sunrise, daily </item>
+        <item>Sunrise, daily </item>
+        <item>Sunrise, daily</item>
+
+    </string-array>
+
+    <!--Closing Timings-->
+    <string-array name="CloseTime">
+
+        <item>6 p.m. </item>
+        <item>5 p.m. </item>
+        <item>N.A. </item>
+        <item>6 p.m. </item>
+        <item>6:30 p.m. </item>
+        <item>Until Sunset </item>
+        <item>8 p.m. </item>
+        <item>Until sunset</item>
+
+    </string-array>
+
+
+    <!-- Fees -->
+    <string-array name="Fees">
+
+        <item>Foreigners-250Rs, Indians-10Rs </item>
+        <item>Free </item>
+        <item>Free </item>
+        <item>Camera fee of 300Rs </item>
+        <item>Free </item>
+        <item>Foreigners, 250 rupees. Indians, 10 rupees </item>
+        <item>Free </item>
+        <item>Foreigners, 250 rupees. Indians, 10 rupees</item>
+
+    </string-array>
+
+
+    <!-- Description -->
+    <string-array name="Description">
+
+        <item>Delhi\'s most famous monument, the Red Fort, stands as a powerful reminder of the Mughal emperors who ruled India. Its walls, which stretch for over two kilometers (1.2 miles), were built in 1638 to keep out invaders. However, they failed to stop the fort being captured by the Sikhs and the British. To take your imagination back to the ancient era, a one hour sound and light show of the fort\'s history is held each evening. </item>
+
+        <item>A visit to Gandhi Smriti will show you the exact spot where Mahatma Gandhi, affectionately referred to as the Father of the Nation, was assassinated on January 30, 1948. He lived in the house for 144 days up until the time of his death. The room that he slept in, kept exactly how he left it, and the prayer ground where he held a mass congregation every evening are both open to the public. Plenty of photos, sculptures, paintings, and inscriptions are also on display. You can also visit his memorial at Raj Ghat. </item>
+
+        <item>The towering archway of India Gate at the center of New Delhi is a war memorial, built in memory of the Indian soldiers who lost their lives fighting for the British Army in World War I. At night it glows warmly under floodlights, and the gardens that line its boulevard are a popular place to enjoy a warm summer\'s evening.</item>
+
+        <item>Jama Masjid is another marvelous treasure of the Old City, and is the largest mosque in India. Its courtyard can hold an incredible 25,000 devotees. The mosque took 13 years to build, and was completed in 1650. A strenuous climb to the top of its southern tower will reward you with a stunning view across the rooftops of Delhi. Be sure to dress appropriately when visiting the mosque or you won\'t be allowed in. This means covering your head, legs and shoulders. </item>
+
+        <item>A relatively new attraction, this massive temple complex was built by the BAPS Swaminarayan Sanstha spiritual organization and opened in 2005. It\'s dedicated to showcasing Indian culture. As well as the astonishing architecture of the pink stone and white marble shrine, the complex includes sprawling garden, sculptures, and boat ride. Allow plenty of time to explore it thoroughly -- at least half a day. Do note that cell phones and cameras are not permitted inside.</item>
+
+        <item>If you think Humayun\'s Tomb looks a bit like the Taj Mahal in Agra, that\'s because it was the inspiration for the Taj Mahal\'s creation. The tomb was built in 1570, and houses the body of the second Mughal emperor, Humayun. It was the first of this type of Mughal architecture to be built in India, and the Mughal rulers followed it up with an extensive period of construction all over the country. The tomb is part of a greater complex that\'s set amongst beautiful gardens. </item>
+
+        <item>Lodi Gardens provides a serene retreat from city life, and is the place to come if you\'re feeling tired and worn out. The vast Gardens were built by the British in 1936 around the tombs of 15th and 16th century rulers. Joggers, yoga practitioners, and young couples all enjoy this park. </item>
+
+        <item>Qutab Minar, the tallest brick minaret in the world, is an incredible example of early Indo–Islamic architecture. It was built in 1206, but the reason remains a mystery. Some believe that it was made to signify victory and the beginning of Muslim rule in India, while others say it was used to call the faithful to prayer. The tower has five distinct stories, and is covered with intricate carvings and verses from the holy Quran. There are also a number of other historic monuments on the site.</item>
+    </string-array>
+
+
+</resources>

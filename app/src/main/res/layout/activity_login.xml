@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_margin="5sp"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="57dp"
+        >
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Login"
+        android:id="@+id/loginTitle"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+
+
+        android:textAlignment="center"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90sp"
+        android:gravity="center_horizontal"
+        >
+
+        <EditText
+            android:layout_width="150sp"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="Username"
+            android:id="@+id/loginUserNameField" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40sp"
+        android:gravity="center_horizontal"
+       >
+
+        <EditText
+            android:layout_width="150sp"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:hint="Password"
+            android:ems="10"
+            android:id="@+id/loginPasswordField"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="65dp"
+        >
+
+        <Button
+            android:layout_marginLeft="50sp"
+            android:layout_marginRight="50sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:id="@+id/loginButton"
+            android:textAlignment="center"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Use username guest and leave password blank to login as Guest. Otherwise use username-root and password-toor"
+        android:id="@+id/textView"
+        android:layout_marginTop="30sp"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.24" />
+
+</LinearLayout>
